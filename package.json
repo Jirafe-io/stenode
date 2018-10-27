@@ -1,0 +1,19 @@
+{
+  "name": "stenode",
+  "version": "1.0.0",
+  "description": "Test Slack apps built with Node.js",
+  "main": "index.js",
+  "repository": "https://github.com/jirafe/stenode",
+  "author": "Pier-Luc Gendreau",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "got": "^9.2.2"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-rc.1",
+    "mock-spawn": "^0.2.6"
+  }
+}
