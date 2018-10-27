@@ -1,11 +1,10 @@
 const { spawn } = require("child_process");
 const got = require("got");
-const path = require("path");
 
-function stenode(appUrl) {
+function stenode(appUrl, spawnOptions = {}) {
   const steno = spawn(`steno --replay --internal-url ${appUrl}`, {
     shell: true,
-    cwd: path.join(__dirname)
+    ...spawnOptions
   });
 
   const startScenario = async name => {
