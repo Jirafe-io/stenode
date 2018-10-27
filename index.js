@@ -17,6 +17,8 @@ function stenode(appUrl, spawnOptions = {}) {
       });
     } catch (e) {
       steno.kill("SIGHUP");
+
+      throw e;
     }
   };
 
