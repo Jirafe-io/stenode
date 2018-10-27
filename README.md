@@ -1,4 +1,4 @@
-# stenode [![Build Status](https://travis-ci.org/Zertz/stenode.svg?branch=master)](https://travis-ci.org/Zertz/stenode)
+# stenode [![Build Status](https://travis-ci.org/Jirafe-io/stenode.svg?branch=master)](https://travis-ci.org/Jirafe-io/stenode)
 
 Test Slack apps built with Node.js
 
