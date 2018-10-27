@@ -16,7 +16,7 @@ function stenode(appUrl, spawnOptions = {}) {
         json: true
       });
     } catch (e) {
-      steno.kill("SIGHUP");
+      steno.kill("SIGKILL");
 
       throw e;
     }
@@ -28,7 +28,7 @@ function stenode(appUrl, spawnOptions = {}) {
         json: true
       });
     } finally {
-      steno.kill("SIGHUP");
+      steno.kill("SIGKILL");
     }
   };
 
