@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Test Slack apps built with Node.js",
   "main": "index.js",
-  "repository": "https://github.com/jirafe/stenode",
+  "repository": "https://github.com/Jirafe-io/stenode",
   "author": "Pier-Luc Gendreau",
   "license": "MIT",
   "scripts": {
